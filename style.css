@@ -1,0 +1,39 @@
+body{
+    background-color: lightyellow;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container{
+    display: bl;
+    position: relative;
+    height: 750px;
+    width:780px;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    background-color:mediumseagreen;
+    box-sizing: border-box;
+}
+
+li{
+    position: relative;
+    font-size: x-large;
+    display: flex;
+    background-color: mediumspringgreen;
+    height: 40px;
+    width: 690px;
+    padding-top:10px;
+    padding-left: 20px;
+    margin:4px 0;
+    transition: .5s;
+    border-radius: 5px;
+    
+}
+.why{
+    height: 60px;
+}
+li:hover{
+    transform: scale(1.06);
+    background: mediumseagreen;
+}
